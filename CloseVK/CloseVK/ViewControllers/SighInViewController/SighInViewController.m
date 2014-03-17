@@ -7,6 +7,8 @@
 //
 
 #import "SighInViewController.h"
+#import "MainViewController.h"
+#import "LoadingViewController.h"
 
 @interface SighInViewController ()
 
@@ -14,14 +16,6 @@
 
 @implementation SighInViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -29,13 +23,8 @@
     // Do any additional setup after loading the view from its nib.
 }
 - (IBAction)loginButtonClick:(id)sender {
+    [self.navigationController pushViewController:[[LoadingViewController alloc]init] animated:YES];
     NSLog(@"login button click");
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

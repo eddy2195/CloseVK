@@ -22,6 +22,10 @@
 		11C6364318D4C5E800349460 /* CloseVKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C6364218D4C5E800349460 /* CloseVKTests.m */; };
 		11C6365118D4C6CF00349460 /* SighInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11C6364F18D4C6CF00349460 /* SighInViewController.m */; };
 		11C6365218D4C6CF00349460 /* SighInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11C6365018D4C6CF00349460 /* SighInViewController.xib */; };
+		11D4D76418D6CB380007C006 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D4D76218D6CB380007C006 /* MainViewController.m */; };
+		11D4D76518D6CB380007C006 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D4D76318D6CB380007C006 /* MainViewController.xib */; };
+		11D4D76A18D6CD020007C006 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D4D76818D6CD020007C006 /* LoadingViewController.m */; };
+		11D4D76B18D6CD020007C006 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D4D76918D6CD020007C006 /* LoadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,12 @@
 		11C6364E18D4C6CF00349460 /* SighInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SighInViewController.h; sourceTree = "<group>"; };
 		11C6364F18D4C6CF00349460 /* SighInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SighInViewController.m; sourceTree = "<group>"; };
 		11C6365018D4C6CF00349460 /* SighInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SighInViewController.xib; sourceTree = "<group>"; };
+		11D4D76118D6CB380007C006 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		11D4D76218D6CB380007C006 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		11D4D76318D6CB380007C006 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		11D4D76718D6CD020007C006 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		11D4D76818D6CD020007C006 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		11D4D76918D6CD020007C006 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +168,8 @@
 		11C6364C18D4C67600349460 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				11D4D76618D6CCF10007C006 /* LoadingViewController */,
+				11D4D76018D6CB250007C006 /* MainViewController */,
 				11C6364D18D4C69F00349460 /* SighInViewController */,
 			);
 			path = ViewControllers;
@@ -171,6 +183,26 @@
 				11C6365018D4C6CF00349460 /* SighInViewController.xib */,
 			);
 			path = SighInViewController;
+			sourceTree = "<group>";
+		};
+		11D4D76018D6CB250007C006 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11D4D76118D6CB380007C006 /* MainViewController.h */,
+				11D4D76218D6CB380007C006 /* MainViewController.m */,
+				11D4D76318D6CB380007C006 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		11D4D76618D6CCF10007C006 /* LoadingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11D4D76718D6CD020007C006 /* LoadingViewController.h */,
+				11D4D76818D6CD020007C006 /* LoadingViewController.m */,
+				11D4D76918D6CD020007C006 /* LoadingViewController.xib */,
+			);
+			path = LoadingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +284,8 @@
 				11C6365218D4C6CF00349460 /* SighInViewController.xib in Resources */,
 				11C6363018D4C5E800349460 /* Images.xcassets in Resources */,
 				11C6361F18D4C5E800349460 /* InfoPlist.strings in Resources */,
+				11D4D76B18D6CD020007C006 /* LoadingViewController.xib in Resources */,
+				11D4D76518D6CB380007C006 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C6362E18D4C5E800349460 /* ViewController.m in Sources */,
+				11D4D76A18D6CD020007C006 /* LoadingViewController.m in Sources */,
 				11C6362518D4C5E800349460 /* AppDelegate.m in Sources */,
 				11C6365118D4C6CF00349460 /* SighInViewController.m in Sources */,
+				11D4D76418D6CB380007C006 /* MainViewController.m in Sources */,
 				11C6362118D4C5E800349460 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +512,7 @@
 				11C6364818D4C5E800349460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11C6364918D4C5E800349460 /* Build configuration list for PBXNativeTarget "CloseVKTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +521,7 @@
 				11C6364B18D4C5E800349460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
