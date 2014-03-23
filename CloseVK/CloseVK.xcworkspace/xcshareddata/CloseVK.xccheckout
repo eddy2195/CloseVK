@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5749C75F-1766-480D-B11C-ABB57426222F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CloseVK</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2AFEA4F0-0DA7-4589-9C23-56287918255D</key>
+		<string>https://github.com/eddy2195/CloseVK.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CloseVK/CloseVK.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2AFEA4F0-0DA7-4589-9C23-56287918255D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/eddy2195/CloseVK.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2AFEA4F0-0DA7-4589-9C23-56287918255D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2AFEA4F0-0DA7-4589-9C23-56287918255D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CloseVK</string>
+		</dict>
+	</array>
+</dict>
+</plist>
