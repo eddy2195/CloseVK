@@ -39,6 +39,12 @@
                     </label>
                 </subviews>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="friendsAge" destination="h0t-HH-4fs" id="2tB-xF-4W3"/>
+                <outlet property="friendsAvatar" destination="qQa-6o-bhp" id="pbd-Yl-247"/>
+                <outlet property="friendsName" destination="XRI-x2-s4k" id="48b-fR-pjD"/>
+                <outlet property="friendsTown" destination="luR-VX-4qJ" id="gt0-ju-jQQ"/>
+            </connections>
         </tableViewCell>
     </objects>
     <resources>

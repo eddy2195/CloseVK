@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CoincidenceFriendCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *friendsAvatar;
+@property (weak, nonatomic) IBOutlet UILabel *friendsName;
+@property (weak, nonatomic) IBOutlet UILabel *friendsTown;
+@property (weak, nonatomic) IBOutlet UILabel *friendsAge;
 
 @end

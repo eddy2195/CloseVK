@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VKSdk.h>
 
-@interface SighInViewController : UIViewController
+
+@interface SighInViewController : UIViewController <VKSdkDelegate>
 
 @end

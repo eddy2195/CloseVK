@@ -8,6 +8,7 @@
 
 #import "CoincidenceViewController.h"
 #import "CoincidenceFriendCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface CoincidenceViewController ()
 
@@ -23,7 +24,6 @@
     [super viewDidLoad];
     
     [self.coincidenceFriendTable registerNib:[UINib nibWithNibName:@"CoincidenceFriendCell" bundle:nil] forCellReuseIdentifier:@"CoincidenceFriendCell"];
-    
     self.title = @"Coincidences";
 }
 
@@ -61,6 +61,34 @@
 {
     
 }
+
+- (void)vkSdkNeedCaptchaEnter:(VKError *)captchaError
+{
+    NSLog(@"Captcha Error");
+}
+
+- (void)vkSdkTokenHasExpired:(VKAccessToken *)expiredToken
+{
+    NSLog(@"SDK Token has expired");
+}
+
+- (void)vkSdkUserDeniedAccess:(VKError *)authorizationError
+{
+    NSLog(@"User denied access");
+}
+
+- (void)vkSdkShouldPresentViewController:(UIViewController *)controller
+{
+    NSLog(@"Present ViewController");
+}
+
+- (void)vkSdkReceivedNewToken:(VKAccessToken *)newToken
+{
+    NSLog(@"Received new token");
+}
+
+
+
 
 
 

@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="avatar" destination="mxX-yy-5TT" id="6zS-kM-dLf"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>

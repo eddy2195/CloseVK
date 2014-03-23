@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <VKSdk.h>
 
-@interface CoincidenceViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface CoincidenceViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, VKSdkDelegate>
 
 @end
