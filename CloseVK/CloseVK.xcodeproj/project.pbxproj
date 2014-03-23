@@ -26,6 +26,13 @@
 		11D4D76518D6CB380007C006 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D4D76318D6CB380007C006 /* MainViewController.xib */; };
 		11D4D76A18D6CD020007C006 /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D4D76818D6CD020007C006 /* LoadingViewController.m */; };
 		11D4D76B18D6CD020007C006 /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11D4D76918D6CD020007C006 /* LoadingViewController.xib */; };
+		9E21CDD718DF208900ACF151 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21CDD518DF208900ACF151 /* SettingsViewController.m */; };
+		9E21CDD818DF208900ACF151 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E21CDD618DF208900ACF151 /* SettingsViewController.xib */; };
+		9E21CDDD18DF27BC00ACF151 /* CoincidenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21CDDB18DF27BC00ACF151 /* CoincidenceViewController.m */; };
+		9E21CDDE18DF27BC00ACF151 /* CoincidenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E21CDDC18DF27BC00ACF151 /* CoincidenceViewController.xib */; };
+		9E21CDE318DF281C00ACF151 /* CoincidenceFriendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E21CDE118DF281C00ACF151 /* CoincidenceFriendCell.m */; };
+		9E21CDE418DF281C00ACF151 /* CoincidenceFriendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E21CDE218DF281C00ACF151 /* CoincidenceFriendCell.xib */; };
+		9E21CDE918DF29BC00ACF151 /* pict.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9E21CDE818DF29BC00ACF151 /* pict.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +73,16 @@
 		11D4D76718D6CD020007C006 /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
 		11D4D76818D6CD020007C006 /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
 		11D4D76918D6CD020007C006 /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
+		9E21CDD418DF208900ACF151 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9E21CDD518DF208900ACF151 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9E21CDD618DF208900ACF151 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		9E21CDDA18DF27BC00ACF151 /* CoincidenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoincidenceViewController.h; sourceTree = "<group>"; };
+		9E21CDDB18DF27BC00ACF151 /* CoincidenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoincidenceViewController.m; sourceTree = "<group>"; };
+		9E21CDDC18DF27BC00ACF151 /* CoincidenceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoincidenceViewController.xib; sourceTree = "<group>"; };
+		9E21CDE018DF281C00ACF151 /* CoincidenceFriendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoincidenceFriendCell.h; sourceTree = "<group>"; };
+		9E21CDE118DF281C00ACF151 /* CoincidenceFriendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoincidenceFriendCell.m; sourceTree = "<group>"; };
+		9E21CDE218DF281C00ACF151 /* CoincidenceFriendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoincidenceFriendCell.xib; sourceTree = "<group>"; };
+		9E21CDE818DF29BC00ACF151 /* pict.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pict.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +142,7 @@
 		11C6361A18D4C5E800349460 /* CloseVK */ = {
 			isa = PBXGroup;
 			children = (
+				9E21CDE518DF29BC00ACF151 /* Resources */,
 				11C6364C18D4C67600349460 /* ViewControllers */,
 				11C6362318D4C5E800349460 /* AppDelegate.h */,
 				11C6362418D4C5E800349460 /* AppDelegate.m */,
@@ -168,6 +186,8 @@
 		11C6364C18D4C67600349460 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				9E21CDD918DF27A500ACF151 /* CoincidenceViewController */,
+				9E21CDD318DF206000ACF151 /* SettingsViewController */,
 				11D4D76618D6CCF10007C006 /* LoadingViewController */,
 				11D4D76018D6CB250007C006 /* MainViewController */,
 				11C6364D18D4C69F00349460 /* SighInViewController */,
@@ -203,6 +223,62 @@
 				11D4D76918D6CD020007C006 /* LoadingViewController.xib */,
 			);
 			path = LoadingViewController;
+			sourceTree = "<group>";
+		};
+		9E21CDD318DF206000ACF151 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E21CDD418DF208900ACF151 /* SettingsViewController.h */,
+				9E21CDD518DF208900ACF151 /* SettingsViewController.m */,
+				9E21CDD618DF208900ACF151 /* SettingsViewController.xib */,
+			);
+			name = SettingsViewController;
+			path = LoadingViewController/SettingsViewController;
+			sourceTree = "<group>";
+		};
+		9E21CDD918DF27A500ACF151 /* CoincidenceViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E21CDDF18DF27F100ACF151 /* CoincidenceFriendCell */,
+				9E21CDDA18DF27BC00ACF151 /* CoincidenceViewController.h */,
+				9E21CDDB18DF27BC00ACF151 /* CoincidenceViewController.m */,
+				9E21CDDC18DF27BC00ACF151 /* CoincidenceViewController.xib */,
+			);
+			path = CoincidenceViewController;
+			sourceTree = "<group>";
+		};
+		9E21CDDF18DF27F100ACF151 /* CoincidenceFriendCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E21CDE018DF281C00ACF151 /* CoincidenceFriendCell.h */,
+				9E21CDE118DF281C00ACF151 /* CoincidenceFriendCell.m */,
+				9E21CDE218DF281C00ACF151 /* CoincidenceFriendCell.xib */,
+			);
+			path = CoincidenceFriendCell;
+			sourceTree = "<group>";
+		};
+		9E21CDE518DF29BC00ACF151 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E21CDE618DF29BC00ACF151 /* Icons */,
+				9E21CDE718DF29BC00ACF151 /* Pictures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E21CDE618DF29BC00ACF151 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		9E21CDE718DF29BC00ACF151 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				9E21CDE818DF29BC00ACF151 /* pict.jpg */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,10 +357,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E21CDDE18DF27BC00ACF151 /* CoincidenceViewController.xib in Resources */,
 				11C6365218D4C6CF00349460 /* SighInViewController.xib in Resources */,
+				9E21CDD818DF208900ACF151 /* SettingsViewController.xib in Resources */,
 				11C6363018D4C5E800349460 /* Images.xcassets in Resources */,
+				9E21CDE918DF29BC00ACF151 /* pict.jpg in Resources */,
 				11C6361F18D4C5E800349460 /* InfoPlist.strings in Resources */,
 				11D4D76B18D6CD020007C006 /* LoadingViewController.xib in Resources */,
+				9E21CDE418DF281C00ACF151 /* CoincidenceFriendCell.xib in Resources */,
 				11D4D76518D6CB380007C006 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,11 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C6362E18D4C5E800349460 /* ViewController.m in Sources */,
+				9E21CDDD18DF27BC00ACF151 /* CoincidenceViewController.m in Sources */,
+				9E21CDE318DF281C00ACF151 /* CoincidenceFriendCell.m in Sources */,
 				11D4D76A18D6CD020007C006 /* LoadingViewController.m in Sources */,
 				11C6362518D4C5E800349460 /* AppDelegate.m in Sources */,
 				11C6365118D4C6CF00349460 /* SighInViewController.m in Sources */,
 				11D4D76418D6CB380007C006 /* MainViewController.m in Sources */,
 				11C6362118D4C5E800349460 /* main.m in Sources */,
+				9E21CDD718DF208900ACF151 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
