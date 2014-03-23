@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SighInViewController.h"
+#import "VKSdk.h"
+
 
 @implementation AppDelegate
 
